@@ -1,0 +1,6 @@
+numpy
+matplotlib
+seaborn
+scikit-learn
+# Optional: uncomment to use full MNIST dataset (requires ~500MB download on first use)
+# tensorflow
