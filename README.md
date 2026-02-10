@@ -48,9 +48,8 @@ A complete implementation of neural networks from pure NumPy, progressing from s
 
 ```
 neural-net/
-├── perceptron.py              # Single-layer perceptron
+├── perceptron.py              # Single-layer perceptron (logic gates demo)
 ├── neural_network.py          # Multi-layer network from scratch
-├── app.py                     # Logic gates demonstration
 ├── test_mnist.py              # Full MNIST training & evaluation
 ├── requirements.txt           # Python dependencies
 ├── README.md                  # This documentation
@@ -79,10 +78,11 @@ pip install -r requirements.txt
 
 ## Usage
 
-### Test Simple Perceptron (Logic Gates)
+### Test Simple Perceptron (Logic Gates Demo)
 ```bash
 python perceptron.py
 ```
+Trains and visualizes perceptron on AND, OR, and NAND logic gates.  
 Generates: `and_loss.png`, `or_loss.png`, `nand_loss.png`
 
 ### Train on Full MNIST
